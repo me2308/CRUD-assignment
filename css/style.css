@@ -1,0 +1,74 @@
+body{
+    background-color: #F7ECDE;
+}
+.group1  , .group2 , table , button{
+    font-family: "PT Sans Caption", sans-serif !important;
+    font-weight: 700;
+}
+section h1{
+    position: relative;
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+section h1::before{
+    content: '';
+    width: 100%;
+    height: 25%;
+    background-color: #fec260;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: height 0.5s;
+}
+section h1:hover::before{
+    height: 65%;
+}
+.form{
+    border: 2px dotted black;
+    border-right: 0;
+    border-left: 0;
+}
+
+.form .header {
+    font-weight: 500;
+
+}
+.form .header h2{
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right , #3ca55c, #b5ac49);
+    
+}
+.form .header i{
+    font-weight: 900;
+    font-size: 25px;
+}
+section table{
+    background-color: rgba(248,249,250,1);
+}
+section table *{
+    padding: 8px;
+}
+section table thead{
+    border: 1px solid rgb(215, 215, 215) ;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.form .btn{
+    background-color: #D1512D;
+    color: white;
+}
+
+
+.part{
+    width: 50%;
+    background-color: #3ca55c;
+    word-break: break-all;
+    
+}
